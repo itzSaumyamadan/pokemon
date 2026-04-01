@@ -1,0 +1,26 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+}
+
+#pokemon{
+    margin-top: 20px;
+}
+
+img{
+    width: 150px;
+}
+
+/* simple responsive design */
+
+@media (max-width:600px){
+    img{
+        width:100px;
+    }
+}
