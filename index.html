@@ -10,12 +10,23 @@
 <h1>Pokemon Explorer</h1>
 
 <button onclick="getPokemon()">Load Pokemon</button>
+<button onclick="toggleDarkMode()">🌙 Toggle Mode</button>
+<br>
+
+<input type="text" id="search" placeholder="Search Pokemon">
+
+<select id="sort">
+    <option value="">Sort</option>
+    <option value="attack">Attack</option>
+    <option value="hp">HP</option>
+</select>
 
 <p id="loading"></p>
 
 <div id="pokemon"></div>
 
 <script src="script.js"></script>
+
 
 </body>
 </html>
